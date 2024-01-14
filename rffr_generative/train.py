@@ -68,8 +68,8 @@ def train():
     if(len(config.gpus) > 1):
         net = torch.nn.DataParallel(net).cuda()
 
-    net = torch.compile(net)
-    torch.set_float32_matmul_precision('high')
+    # net = torch.compile(net)
+    # torch.set_float32_matmul_precision('high')
     
     param_groups = optim_factory.param_groups_weight_decay(net, config.weight_decay)
     optimizer = optim.AdamW(param_groups, lr=config.lr, betas=(config.beta1, config.beta2))
