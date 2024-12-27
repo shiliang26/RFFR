@@ -3,6 +3,8 @@
 
 This repository is the official implementation of [Real Face Foundation Representation Learning for Generalized Deepfake Detection](https://arxiv.org/abs/2303.08439). 
 
+This long-overdue paper was finally [published at *Pattern recognition*](https://www.sciencedirect.com/science/article/abs/pii/S0031320324010501) in Dec 2024.
+
 ## Overview
 
 In this study, we propose Real Face Foundation Representation Learning (RFFR), which aims to learn a general representation from large-scale real face datasets and detect potential artifacts outside the distribution of RFFR. 
@@ -88,11 +90,13 @@ This repository partially borrows from [SSDG](https://github.com/taylover-pei/SS
 Consider citing our paper if you find it helpful:
 
 ```
-@article{shi2023real,
-  title={Real Face Foundation Representation Learning for Generalized Deepfake Detection},
-  author={Shi, Liang and Zhang, Jie and Shan, Shiguang},
-  journal={arXiv preprint arXiv:2303.08439},
-  year={2023}
+@article{shi2024real,
+  title={Real face foundation representation learning for generalized deepfake detection},
+  author={Shi, Liang and Zhang, Jie and Ji, Zhilong and Bai, Jinfeng and Shan, Shiguang},
+  journal={Pattern Recognition},
+  pages={111299},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
