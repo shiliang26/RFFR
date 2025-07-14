@@ -3,7 +3,7 @@
 
 This repository is the official implementation of [Real Face Foundation Representation Learning for Generalized Deepfake Detection](https://arxiv.org/abs/2303.08439). 
 
-This long-overdue paper was finally [published at *Pattern recognition*](https://www.sciencedirect.com/science/article/abs/pii/S0031320324010501) in Dec 2024.
+The paper is published at [*Pattern recognition*](https://www.sciencedirect.com/science/article/abs/pii/S0031320324010501) in Dec 2024.
 
 ## Overview
 
